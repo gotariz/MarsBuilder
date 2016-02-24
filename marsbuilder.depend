@@ -1,0 +1,339 @@
+# depslib dependency file v1.0
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\globals.cpp
+	"globals.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\globals.h
+	"glib.h"
+	"structs.h"
+	"dependencies.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\glib.h
+	"dependencies.h"
+
+1456283908 c:\users\tom\desktop\marsbuilder\source\dependencies.h
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+	<algorithm>
+	<math.h>
+	<climits>
+	"GL/glut.h"
+	"SOIL/SOIL.h"
+	"tinyxml2/tinyxml2.h"
+
+1456293163 c:\users\tom\desktop\marsbuilder\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1456293163 c:\users\tom\desktop\marsbuilder\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1456283269 c:\users\tom\desktop\marsbuilder\source\soil\soil.h
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\tinyxml2\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstdarg>
+	<android/log.h>
+	<assert.h>
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\structs.h
+	"enums.h"
+	"glib.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\enums.h
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\gui\font.cpp
+	"Font.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\gui\font.h
+	"general.h"
+	"glTexture.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\general.h
+	"dependencies.h"
+	"glib.h"
+	"utils.h"
+	"consts.h"
+	"globals.h"
+	"enums.h"
+	"structs.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\utils.h
+	<iostream>
+	<sstream>
+	<fstream>
+	"glib.h"
+	"consts.h"
+	"globals.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\consts.h
+	"glib.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\gui\gltexture.h
+	"dependencies.h"
+	"glib.h"
+
+1456283750 source:c:\users\tom\desktop\marsbuilder\source\gui\gltexture.cpp
+	"glTexture.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\gui\guibutton.cpp
+	"guiButton.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\gui\guibutton.h
+	"general.h"
+	"guiElement.h"
+	"glTexture.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\gui\guielement.h
+	"general.h"
+	"glTexture.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\gui\guielement.cpp
+	"guiElement.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\gui\guilabel.cpp
+	"guiLabel.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\gui\guilabel.h
+	"guiElement.h"
+	"Font.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\gui\guimanager.cpp
+	"guiManager.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\gui\guimanager.h
+	"general.h"
+	"guiElement.h"
+	"guiPanel.h"
+	"guiButton.h"
+	"guiLabel.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\gui\guipanel.h
+	"general.h"
+	"guiElement.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\gui\guipanel.cpp
+	"guiPanel.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\main.cpp
+	<GL/glut.h>
+	<stdlib.h>
+	"general.h"
+	"OpenGLApp.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\openglapp.h
+	"general.h"
+	"gui/guiManager.h"
+	"gui/guiPanel.h"
+	"gui/guiButton.h"
+	"gui/font.h"
+	"modules/Module.h"
+	"modules/modLowGrade.h"
+	"modules/modHighGrade.h"
+	"modules/modLowGradeDoor.h"
+	"modules/modHighGradeDoor.h"
+	"modules/modLowGradeWindow.h"
+	"modules/modHighGradeWindow.h"
+	"modules/modInternalWall.h"
+	"modules/modInternalDoor.h"
+	"modules/modConnectingDoor.h"
+	"modules/modCorridor.h"
+	"modules/modAirLockDoor.h"
+	"modules/modAccessory.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\module.h
+	"general.h"
+	"blocks/BuildingBlock.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\blocks\buildingblock.h
+	"general.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modlowgrade.h
+	"Module.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modhighgrade.h
+	"general.h"
+	"Module.h"
+	"blocks/BuildingBlock.h"
+	"blocks/CustomBuildingBlock.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\blocks\custombuildingblock.h
+	"BuildingBlock.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modlowgradedoor.h
+	"general.h"
+	"modContained.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modcontained.h
+	"general.h"
+	"Module.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modhighgradedoor.h
+	"general.h"
+	"modContained.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modlowgradewindow.h
+	"general.h"
+	"modContained.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modhighgradewindow.h
+	"modContained.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modinternalwall.h
+	"general.h"
+	"modContained.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modinternaldoor.h
+	"general.h"
+	"modContained.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modconnectingdoor.h
+	"general.h"
+	"modContained.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modcorridor.h
+	"general.h"
+	"modContained.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modairlockdoor.h
+	"general.h"
+	"modContained.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\modaccessory.h
+	"general.h"
+	"modContained.h"
+	"blocks/AccessoryBuildingBlock.h"
+	"gui/Font.h"
+
+1455536697 c:\users\tom\desktop\marsbuilder\source\modules\blocks\accessorybuildingblock.h
+	"BuildingBlock.h"
+	"gui/Font.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\blocks\accessorybuildingblock.cpp
+	"AccessoryBuildingBlock.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\blocks\buildingblock.cpp
+	"BuildingBlock.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\blocks\custombuildingblock.cpp
+	"CustomBuildingBlock.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modaccessory.cpp
+	"modAccessory.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modairlockdoor.cpp
+	"modAirLockDoor.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modconnectingdoor.cpp
+	"modConnectingDoor.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modcontained.cpp
+	"modContained.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modcorridor.cpp
+	"modCorridor.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modhighgrade.cpp
+	"modHighGrade.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modhighgradedoor.cpp
+	"modHighGradeDoor.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modhighgradewindow.cpp
+	"modHighGradeWindow.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modinternaldoor.cpp
+	"modInternalDoor.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modinternalwall.cpp
+	"modInternalWall.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modlowgrade.cpp
+	"modLowGrade.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modlowgradedoor.cpp
+	"modLowGradeDoor.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\modlowgradewindow.cpp
+	"modLowGradeWindow.h"
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\modules\module.cpp
+	"Module.h"
+
+1455536696 source:c:\users\tom\desktop\marsbuilder\source\openglapp.cpp
+	"OpenGLApp.h"
+
+1456283269 source:c:\users\tom\desktop\marsbuilder\source\soil\image_dxt.c
+	"image_DXT.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1456283269 c:\users\tom\desktop\marsbuilder\source\soil\image_dxt.h
+
+1456283269 source:c:\users\tom\desktop\marsbuilder\source\soil\image_helper.c
+	"image_helper.h"
+	<stdlib.h>
+	<math.h>
+
+1456283269 c:\users\tom\desktop\marsbuilder\source\soil\image_helper.h
+
+1456283269 source:c:\users\tom\desktop\marsbuilder\source\soil\soil.c
+	<windows.h>
+	<wingdi.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<Carbon/Carbon.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	"SOIL.h"
+	"stb_image_aug.h"
+	"image_helper.h"
+	"image_DXT.h"
+	<stdlib.h>
+	<string.h>
+
+1456283269 c:\users\tom\desktop\marsbuilder\source\soil\stb_image_aug.h
+	<stdio.h>
+
+1456283269 source:c:\users\tom\desktop\marsbuilder\source\soil\stb_image_aug.c
+	"stb_image_aug.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+	"stbi_DDS_aug.h"
+	"stbi_DDS_aug_c.h"
+
+1456283269 c:\users\tom\desktop\marsbuilder\source\soil\stbi_dds_aug.h
+
+1456283269 c:\users\tom\desktop\marsbuilder\source\soil\stbi_dds_aug_c.h
+
+1455536697 source:c:\users\tom\desktop\marsbuilder\source\tinyxml2\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<cstddef>
+

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="marsbuilder" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/marsbuilder" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../MarsBuilder" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/marsbuilder" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../MarsBuilder" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add directory="source" />
+			<Add directory="SOIL/src" />
+			<Add directory="freeglut/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="SOIL/src" />
+			<Add directory="freeglut/lib" />
+		</Linker>
+		<Unit filename="source/OpenGLApp.cpp" />
+		<Unit filename="source/OpenGLApp.h" />
+		<Unit filename="source/SOIL/SOIL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/SOIL/SOIL.h" />
+		<Unit filename="source/SOIL/image_DXT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/SOIL/image_DXT.h" />
+		<Unit filename="source/SOIL/image_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/SOIL/image_helper.h" />
+		<Unit filename="source/SOIL/stb_image_aug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/SOIL/stb_image_aug.h" />
+		<Unit filename="source/SOIL/stbi_DDS_aug.h" />
+		<Unit filename="source/SOIL/stbi_DDS_aug_c.h" />
+		<Unit filename="source/consts.h" />
+		<Unit filename="source/dependencies.h" />
+		<Unit filename="source/enums.h" />
+		<Unit filename="source/general.h" />
+		<Unit filename="source/glib.h" />
+		<Unit filename="source/globals.cpp" />
+		<Unit filename="source/globals.h" />
+		<Unit filename="source/gui/Font.cpp" />
+		<Unit filename="source/gui/Font.h" />
+		<Unit filename="source/gui/glTexture.cpp" />
+		<Unit filename="source/gui/glTexture.h" />
+		<Unit filename="source/gui/guiButton.cpp" />
+		<Unit filename="source/gui/guiButton.h" />
+		<Unit filename="source/gui/guiElement.cpp" />
+		<Unit filename="source/gui/guiElement.h" />
+		<Unit filename="source/gui/guiLabel.cpp" />
+		<Unit filename="source/gui/guiLabel.h" />
+		<Unit filename="source/gui/guiManager.cpp" />
+		<Unit filename="source/gui/guiManager.h" />
+		<Unit filename="source/gui/guiPanel.cpp" />
+		<Unit filename="source/gui/guiPanel.h" />
+		<Unit filename="source/main.cpp" />
+		<Unit filename="source/modules/Module.cpp" />
+		<Unit filename="source/modules/Module.h" />
+		<Unit filename="source/modules/blocks/AccessoryBuildingBlock.cpp" />
+		<Unit filename="source/modules/blocks/AccessoryBuildingBlock.h" />
+		<Unit filename="source/modules/blocks/BuildingBlock.cpp" />
+		<Unit filename="source/modules/blocks/BuildingBlock.h" />
+		<Unit filename="source/modules/blocks/CustomBuildingBlock.cpp" />
+		<Unit filename="source/modules/blocks/CustomBuildingBlock.h" />
+		<Unit filename="source/modules/modAccessory.cpp" />
+		<Unit filename="source/modules/modAccessory.h" />
+		<Unit filename="source/modules/modAirLockDoor.cpp" />
+		<Unit filename="source/modules/modAirLockDoor.h" />
+		<Unit filename="source/modules/modConnectingDoor.cpp" />
+		<Unit filename="source/modules/modConnectingDoor.h" />
+		<Unit filename="source/modules/modContained.cpp" />
+		<Unit filename="source/modules/modContained.h" />
+		<Unit filename="source/modules/modCorridor.cpp" />
+		<Unit filename="source/modules/modCorridor.h" />
+		<Unit filename="source/modules/modHighGrade.cpp" />
+		<Unit filename="source/modules/modHighGrade.h" />
+		<Unit filename="source/modules/modHighGradeDoor.cpp" />
+		<Unit filename="source/modules/modHighGradeDoor.h" />
+		<Unit filename="source/modules/modHighGradeWindow.cpp" />
+		<Unit filename="source/modules/modHighGradeWindow.h" />
+		<Unit filename="source/modules/modInternalDoor.cpp" />
+		<Unit filename="source/modules/modInternalDoor.h" />
+		<Unit filename="source/modules/modInternalWall.cpp" />
+		<Unit filename="source/modules/modInternalWall.h" />
+		<Unit filename="source/modules/modLowGrade.cpp" />
+		<Unit filename="source/modules/modLowGrade.h" />
+		<Unit filename="source/modules/modLowGradeDoor.cpp" />
+		<Unit filename="source/modules/modLowGradeDoor.h" />
+		<Unit filename="source/modules/modLowGradeWindow.cpp" />
+		<Unit filename="source/modules/modLowGradeWindow.h" />
+		<Unit filename="source/structs.h" />
+		<Unit filename="source/tinyxml2/tinyxml2.cpp" />
+		<Unit filename="source/tinyxml2/tinyxml2.h" />
+		<Unit filename="source/utils.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
